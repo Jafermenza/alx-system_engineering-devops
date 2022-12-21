@@ -27,7 +27,7 @@ for (i = 0; i < 98; i++)
 {
 if (i % 10)
 {
-printf(" ")
+printf(" ");
 }
 if (!(i % 10) && i)
 {
@@ -38,3 +38,4 @@ printf("0x%02x", s1[i]);
 printf("\n");
 return (0);
 }
+
